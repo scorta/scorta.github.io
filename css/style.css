@@ -4,19 +4,20 @@ body {
 }
 
 h1 {
-  font-family: "Merriweather";
-  text-decoration: underline overline dashed;
-}
-
-h1:hover {
   color: #046380;
-  text-decoration: underline overline double;
+  font-family: "Cormorant Garamond", serif;
 }
 
-#temp {
-  display: inline-block;
-  font-family: "Open Sans";
+#temp {  
+  font-family: "Lato", sans-serif;
+}
+
+.inline {  
   padding: 0px 15px;
+  display: inline-block;
+}
+
+.border {
   border: 2px dashed #046380;
   border-radius: 5px;
 }
