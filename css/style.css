@@ -1,0 +1,22 @@
+body {
+  background-color: #fff0a5;
+  color: #002f2f;
+}
+
+h1 {
+  font-family: "Merriweather";
+  text-decoration: underline overline dashed;
+}
+
+h1:hover {
+  color: #046380;
+  text-decoration: underline overline double;
+}
+
+#temp {
+  display: inline-block;
+  font-family: "Open Sans";
+  padding: 0px 15px;
+  border: 2px dashed #046380;
+  border-radius: 5px;
+}
