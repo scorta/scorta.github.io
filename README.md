@@ -1,2 +1,3 @@
-# scorta.github.io
-My CV
+# My CV
+
+Please visit the live version: https://scorta.github.io
