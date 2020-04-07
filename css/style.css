@@ -1,10 +1,10 @@
+body {
+  background-color: #8fe88b;
+}
+
 a {
   font-weight: bold;
   color: #008f3d;
-}
-
-body {
-  background-color: #8fe88b;
 }
 
 #outer {
@@ -12,10 +12,20 @@ body {
   flex-flow: column;
 }
 
-#content {  
+@media (min-width: 1024px) {
+   #content {
+    width: 33vw;
+   }
+}
+
+@media (max-width: 1023px) {
+   #content {
+    width: 95vw;
+   }
+}
+
+#content {
   background: #f3ffe2;
-  width: 640px;
-  height: 100%;
   margin: auto;
   padding: 0em 1em 0em 1em;
   font-family: 'EB Garamond', serif;
