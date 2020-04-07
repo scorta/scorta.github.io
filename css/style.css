@@ -8,24 +8,25 @@ a {
 }
 
 #outer {
-  display: flex;
-  flex-flow: column;
-}
+    display: flex;
+    /*flex-flow: column;*/
+  }
 
 @media (min-width: 1024px) {
    #content {
-    width: 33vw;
+    width: 33%;
    }
 }
 
 @media (max-width: 1023px) {
    #content {
-    width: 95vw;
+    width: 95%;
    }
 }
 
 #content {
   background: #f3ffe2;
+  /*width: 33%;*/
   margin: auto;
   padding: 0em 1em 0em 1em;
   font-family: 'EB Garamond', serif;
