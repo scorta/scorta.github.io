@@ -1,7 +1,14 @@
-h1 {
-  font-family: "Merriweather";
+strong {
+  font-family: 'EB Garamond', serif;
+  /*font-size: large;*/
   color: #008f3d;
 }
+
+a {
+  font-weight: bold;
+  color: #008f3d;
+}
+
 body {
   background-color: #8fe88b;
   margin: 0;
@@ -14,11 +21,11 @@ body {
 
 #content {  
   background: #f3ffe2;
-  width: 1024px;
+  width: 800px;
   height: 100%;
   margin: auto;
-  padding: 0px 30px 30px;
-  font-family: "Open Sans";
+  padding: 0px 2% 2%;
+  font-family: 'EB Garamond', serif;
   border-radius: 10px;
 }
 
