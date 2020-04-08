@@ -1,20 +1,19 @@
 body {
-  background-color: #8fe88b;
+  background-color: #1B5E20;
 }
 
 a {
   font-weight: bold;
-  color: #008f3d;
+  color: #1B5E20;
 }
 
 #outer {
     display: flex;
-    /*flex-flow: column;*/
   }
 
 @media (min-width: 1024px) {
    #content {
-    width: 33%;
+    width: 640px;
    }
 }
 
@@ -25,8 +24,7 @@ a {
 }
 
 #content {
-  background: #f3ffe2;
-  /*width: 33%;*/
+  background: #69F0AE;
   margin: auto;
   padding: 0em 1em 0em 1em;
   font-family: 'EB Garamond', serif;
