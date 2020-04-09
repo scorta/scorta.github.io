@@ -2,4 +2,4 @@
 
 Live version: https://scorta.github.io
 
-I may turn this into a blog, or an online resume someday. Or not.
+You can use this as a template for your own "About Me" page.
