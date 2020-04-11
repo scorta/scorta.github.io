@@ -1,5 +1,5 @@
-## Read me
+## read me
 
-This is a temlate for a simple "About me" page.
+This is a template for a simple "About me" page.
 
 Live version: https://scorta.github.io
