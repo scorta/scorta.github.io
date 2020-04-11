@@ -1,5 +1,5 @@
-## This repo is a short summary about me
+## Read me
+
+This is a temlate for a simple "About me" page.
 
 Live version: https://scorta.github.io
-
-You can use this as a template for your own "About Me" page.
