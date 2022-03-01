@@ -1,33 +1,45 @@
 body {
-  background-color: #1B5E20;
+    background-color: #1B5E20;
 }
 
 a {
-  font-weight: bold;
-  color: #1B5E20;
+    font-weight: bold;
+    color: #1B5E20;
+}
+
+.responsive_image {
+    max-width: 100%;
+    height: auto;
+}
+
+.crypto_address {
+    font-size: large;
 }
 
 #outer {
     display: flex;
-  }
-
-@media (min-width: 1024px) {
-   #content {
-    width: 640px;
-   }
 }
 
-@media (max-width: 1023px) {
-   #content {
-    width: 95%;
-   }
+@media (min-width: 640px) {
+    #content {
+        width: 640px;
+    }
+}
+
+@media (max-width: 462px) {
+    .crypto_address {
+        font-size: small;
+    }
+    /* #content {
+        width: 95%;
+    } */
 }
 
 #content {
-  background: #69F0AE;
-  margin: auto;
-  padding: 0em 1em 0em 1em;
-  font-family: 'EB Garamond', serif;
-  font-size: large;
-  border-radius: 1em;
+    background: #69F0AE;
+    margin: auto;
+    padding: 0em 1em 0em 1em;
+    font-family: 'EB Garamond', serif;
+    font-size: large;
+    border-radius: 1em;
 }
