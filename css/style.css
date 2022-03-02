@@ -9,10 +9,10 @@ a {
 }
 
 a:hover {
-    border: outset;
+    border-style: solid;
     border-radius: 5px;
     padding: 0px 5px 0px 5px;
-    color: #29313E;
+    color: #000000;
     background-color: #FFCB3F;
 }
 
